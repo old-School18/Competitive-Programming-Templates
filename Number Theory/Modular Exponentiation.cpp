@@ -2,7 +2,7 @@
 // (x^y) % M
 
 typedef long long ll;
-ll modexponent(ll x, ll y, ll M)
+ll mod_exponent(ll x, ll y, ll M)
 {
     if (y == 0)
         return 1;
