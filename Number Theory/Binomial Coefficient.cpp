@@ -1,3 +1,5 @@
+//Time Complexity: O(k)
+
 typedef long long ll;
 // ncr
 ll binomialCoeff(ll n, ll r)
