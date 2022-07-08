@@ -1,4 +1,4 @@
-//Time Complexity: O(log(min(a,b)))
+// Time Complexity: O(log(min(a,b)))
 
 typedef long long ll;
 ll gcd(ll a, ll b)
