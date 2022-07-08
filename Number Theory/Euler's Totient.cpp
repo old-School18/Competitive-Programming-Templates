@@ -1,7 +1,7 @@
 //Time Complexity: O(sqrt(n) log(n))
+// count of numbers from 1 to n that are co-prime with n.
 
 typedef ll long long;
-// count of numbers from 1 to n that are co-prime with n.
 ll euler_totient(ll n)
 {
     ll result = n;
