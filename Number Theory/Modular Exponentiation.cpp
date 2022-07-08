@@ -1,6 +1,7 @@
 // Time Complexity: O(log y)
 // (x^y) % M
 
+typedef long long ll;
 ll modexponent(ll x, ll y, ll M)
 {
     if (y == 0)
