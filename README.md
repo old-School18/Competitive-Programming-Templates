@@ -1,2 +1,1 @@
-# Competitive-Programming-Templates
-C++ templates for Competitive Programming
+A curated list of code templates in cpp for Competitive Programming.
