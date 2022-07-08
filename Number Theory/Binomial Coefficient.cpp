@@ -1,7 +1,7 @@
 //Time Complexity: O(k)
+// ncr
 
 typedef long long ll;
-// ncr
 ll binomial_coefficient(ll n, ll r)
 {
     ll res = 1;
