@@ -1,4 +1,4 @@
-//Time Complexity: O(k)
+// Time Complexity: O(k)
 // ncr
 
 typedef long long ll;
