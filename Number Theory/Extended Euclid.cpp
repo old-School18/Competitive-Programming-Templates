@@ -1,4 +1,4 @@
-//TIme Complexity: O(log(max(a,b)))
+//Time Complexity: O(log(max(a,b)))
 
 typedef long long ll;
 ll d, x, y;
