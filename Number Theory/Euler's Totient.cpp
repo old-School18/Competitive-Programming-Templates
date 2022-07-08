@@ -2,7 +2,7 @@
 
 typedef ll long long;
 // count of numbers from 1 to n that are co-prime with n.
-ll eulertotient(ll n)
+ll euler_totient(ll n)
 {
     ll result = n;
     for (ll i = 2; i * i <= n; i++)
