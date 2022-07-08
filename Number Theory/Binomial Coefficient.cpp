@@ -2,7 +2,7 @@
 
 typedef long long ll;
 // ncr
-ll binomialCoeff(ll n, ll r)
+ll binomial_coefficient(ll n, ll r)
 {
     ll res = 1;
     if (r > n - r)
