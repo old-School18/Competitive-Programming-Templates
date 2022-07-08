@@ -2,7 +2,7 @@
 
 typedef long long ll;
 ll d, x, y;
-void extendedEuclid(ll a, ll b)
+void extended_euclid(ll a, ll b)
 {
     if (b == 0)
     {
