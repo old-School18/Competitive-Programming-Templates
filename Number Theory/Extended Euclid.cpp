@@ -1,12 +1,13 @@
-//Time Complexity: O(log(max(a,b)))
+// Time Complexity: O(log(max(a,b)))
+// Determines the coefficients 'x'and 'y' in ax + by = gcd(a, b). 
 
 typedef long long ll;
-ll d, x, y;
+ll g, x, y;
 void extended_euclid(ll a, ll b)
 {
     if (b == 0)
     {
-        d = a;
+        g = a;
         x = 1;
         y = 0;
     }
