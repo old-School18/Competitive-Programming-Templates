@@ -1,6 +1,7 @@
 // Time Complexity: O(sqrt(n))
 // Determine prime numbers from 1 to n if n is large.
 
+typedef long long ll;
 void sieve(ll n, vector<ll> &prime)
 {
     bool is_prime[n + 1];
