@@ -18,7 +18,6 @@ void sieve(ll n, vector<ll> &prime)
     {
         if (is_prime[i])
         {
-            prime.push_back(i);
             for (int j = i * i; j <= n; j += 2 * i)
                 is_prime[j] = false;
         }
