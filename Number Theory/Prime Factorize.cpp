@@ -1,7 +1,7 @@
 // Time Complexity: O(sqrt(n) log n)
 
 typedef long long ll;
-set<ll> prime_factor(ll n)
+set<ll> prime_factors(ll n)
 {
     set<ll> pf;
     while (n % 2 == 0)
