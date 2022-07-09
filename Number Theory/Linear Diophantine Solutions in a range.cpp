@@ -1,6 +1,5 @@
 // Time Complexity: O(log(max(a,b)))
-// Count the number of solutions of ax + by = c if
-// x is in the range of [minx, maxy] and y in [miny, maxy].
+// Count the number of solutions of ax + by = c if x is in the range of [minx, maxy] and y in [miny, maxy].
 
 typedef long long ll;
 ll g, x, y;
