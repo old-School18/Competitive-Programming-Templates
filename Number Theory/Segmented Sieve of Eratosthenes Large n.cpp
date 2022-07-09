@@ -36,7 +36,7 @@ vector<ll> segmented_sieve_large_n(ll n)
 {
     ll limit = floor(sqrt(n)) + 1ll;
     vector<ll> prime;
-    simpleSieve(limit, prime);
+    sieve(limit, prime);
     vector<ll> primr = prime;
     ll lo = limit, hi = 2ll * limit;
     while (lo < n)
