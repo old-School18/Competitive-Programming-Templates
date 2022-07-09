@@ -4,23 +4,23 @@
 typedef long long ll;
 void sieve(ll n)
 {
-    bool isPrime[n + 1];
+    bool is_prime[n + 1];
     for (ll i = 0; i <= n; i++)
     {
         if (i % 2 != 0)
-            isPrime[i] = true;
+            is_prime[i] = true;
         else
-            isPrime[i] = false;
+            is_prime[i] = false;
     }
-    isPrime[1] = false;
-    isPrime[2] = true;
+    is_prime[1] = false;
+    is_prime[2] = true;
 
     for (ll i = 2; i * i <= n; i++)
     {
-        if (isPrime[i] == true)
+        if (is_prime[i] == true)
         {
             for (ll j = i * i; j <= n; j += 2 * i)
-                isPrime[j] = false;
+                is_prime[j] = false;
         }
     }
 }
