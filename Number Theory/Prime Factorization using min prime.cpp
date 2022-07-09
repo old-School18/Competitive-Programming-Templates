@@ -29,7 +29,7 @@ vector<ll> find_min_primes(ll n)
     return min_prime;
 }
 
-set<ll> factorize(ll n)
+set<ll> prime_factors(ll n)
 {
     set<ll> pf;
     vector<ll> min_prime = find_min_primes(n);
