@@ -1,4 +1,4 @@
-// Time Complexity: O(sqrt(n)log n)
+// Time Complexity: O(sqrt(n) log n)
 
 typedef long long ll;
 set<ll> prime_factor(ll n)
