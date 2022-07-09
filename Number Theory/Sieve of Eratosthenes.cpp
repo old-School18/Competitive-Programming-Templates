@@ -1,6 +1,7 @@
 // Time Complexity: O(n log log n)
 // Determine prime numbers from 1 to n.
 
+typedef long long ll;
 void sieve(ll n)
 {
     bool isPrime[n + 1];
