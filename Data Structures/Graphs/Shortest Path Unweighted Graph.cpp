@@ -3,7 +3,7 @@
 typedef long long ll;
 const ll MAX = 1e5 + 5;
 vector<ll> adj[MAX];
-void unweightedpath(ll src, ll V, ll pred[], ll dist[])
+void shortest_path(ll src, ll V, ll pred[], ll dist[])
 {
     queue<ll> qe;
     for (ll i = 1; i <= V; i++)
