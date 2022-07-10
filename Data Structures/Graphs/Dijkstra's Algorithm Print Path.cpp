@@ -33,7 +33,7 @@ bool dijkstra(ll src, ll dest, ll V, ll pred[], ll dist[])
     return (dist[dest] != -1);
 }
 
-vector<ll> shortest_path(ll src, ll dest, ll V)
+vector<ll> print_shortest_path(ll src, ll dest, ll V)
 {
     ll pred[V + 1], dist[V + 1];
     vector<ll> path;
