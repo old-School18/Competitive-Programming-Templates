@@ -1,6 +1,6 @@
 // Time Complexity: O(V + E)
 // Print the shortest path from source to destination 
-//in a weighted graph
+//in an unweighted graph
 
 typedef long long ll;
 const ll MAX = 1e5 + 5;
