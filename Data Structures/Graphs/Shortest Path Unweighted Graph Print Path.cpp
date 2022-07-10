@@ -30,7 +30,7 @@ bool shortest_path(ll src, ll dest, ll V, ll pred[], ll dist[])
     return (dist[dest] != -1);
 }
 
-vector<ll> printpath(ll src, ll dest, ll V)
+vector<ll> print_shortest_path(ll src, ll dest, ll V)
 {
     vector<ll> path;
     ll pred[V + 1], dist[V + 1];
