@@ -1,5 +1,6 @@
 // Time Compleixty: O(n^2)
 
+typedef long long ll;
 ll lis(ll a[], ll n)
 {
     ll lis[n];
