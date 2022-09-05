@@ -2,6 +2,7 @@
 // Time Complexity: O(2^n)
 // Space complexity: O(1)
 
+typedef long long ll;
 ll fibonacci(ll n)
 {
     if (n == 0)
@@ -15,6 +16,7 @@ ll fibonacci(ll n)
 // Time Complexity: O(n)
 // Space complexity: O(n)
 
+typedef long long ll;
 ll table[n + 1];
 ll fibonacci(ll n)
 {
@@ -30,6 +32,7 @@ ll fibonacci(ll n)
 // Time Complexity: O(n)
 // Space complexity: O(n)
 
+typedef long long ll;
 ll table[n + 1] = {0};
 ll fibonacci(ll n)
 {
@@ -46,6 +49,7 @@ ll fibonacci(ll n)
 // Time Complexity: O(n)
 // Space complexity: O(1)
 
+typedef long long ll;
 ll fibonacci(ll n)
 {
     ll a = 0, b = 1, sum;
