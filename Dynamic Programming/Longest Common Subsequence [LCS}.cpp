@@ -1,5 +1,7 @@
-#define sz(s)  s.size()
+// Time Complexity: O(n*m)
+
 typedef long long ll;
+#define sz(s)  (ll)s.size()
 ll lcs(string s, string t)
 {
     ll n = sz(s), m = sz(t);
