@@ -1,4 +1,4 @@
-// Time Complexity: O(n)
+// Time Complexity: O(W*n)
 // Fill a knapsack with given weights such that the sum of values of the chosen weights is maximum. A weight can be added more than once.
 
 typedef long long ll;
