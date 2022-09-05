@@ -5,10 +5,11 @@ typedef long long ll;
 ll integer_knapsack(ll w[], ll v[], ll n, ll W)
 {
     ll dp[W + 1] = {0};
-    dp[0] = 1;
+    memset(dp, -1, sizeof(dp));
+    dp[0] = 0;
     for (ll i = 0; i <= W; i++)
         for (ll j = 0; j < n; j++)
-            if (i >= w[j] && dp[i - w[j]])
+            if (i >= w[j] && dp[i – w[j]] != -1)
                 dp[i] = max(dp[i], dp[i - w[j]] + v[j]);
     return dp[W];
 }
