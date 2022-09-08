@@ -41,6 +41,7 @@ ll zerone_knapsack(ll w[], ll v[], ll n, ll W)
 
 // 1D DP Style B
 
+typedef long long ll;
 ll zerone_knapsack(ll w[], ll v[], ll n, ll w)
 {
     ll dp[n + 1];
