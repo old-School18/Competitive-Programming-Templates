@@ -1,7 +1,6 @@
 // Time Complexity: O(n*W)
 // Fill a knapsack with given weights such that the sum of values of the chosen weights is maximum. A weight can be
-// added only once. The sum of the chosen weights is less than or equal to the capacity of the knapsack W. 
-
+// added only once. The sum of the chosen weights is less than or equal to the capacity of the knapsack W.
 
 // 2D DP
 
@@ -18,8 +17,8 @@ ll zerone_knapsack(ll w[], ll v[], ll n, ll W)
             else
             {
                 dp[i][j] = dp[i - 1][j];
-                if (j >= w[i])
-                    dp[i][j] = max(dp[i][j], dp[i - 1][j - w[i]] + v[i]);
+                if (j >= w[i - 1])
+                    dp[i][j] = max(dp[i][j], dp[i - 1][j - w[i - 1]] + v[i - 1]);
             }
         }
     return dp[n - 1][W];
@@ -43,8 +42,8 @@ ll zerone_knapsack(ll w[], ll v[], ll n, ll W)
             else
             {
                 dp[flag][j] = dp[1 - flag][j];
-                if (j >= w[i])
-                    dp[flag][j] = max(dp[flag][j], dp[1 - flag][j - w[i]] + v[i]);
+                if (j >= w[i - 1])
+                    dp[flag][j] = max(dp[flag][j], dp[1 - flag][j - w[i - 1]] + v[i - 1]);
             }
         }
     }
